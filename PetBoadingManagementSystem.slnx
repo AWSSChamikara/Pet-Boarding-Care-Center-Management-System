@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PBMS Setup/PBMS Setup.vdproj" Type="Installer" />
+  <Project Path="PetBoadingManagementSystem/PetBoadingManagementSystem.vcxproj" />
+</Solution>
