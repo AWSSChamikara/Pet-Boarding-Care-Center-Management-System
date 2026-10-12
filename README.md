@@ -9,7 +9,6 @@ A Windows desktop application (C++/CLI, Windows Forms) with a MySQL database for
 
 ## Team Syntax Errors
 
-|-----------------------------------------------|
 |    Reg No    |        Name       |  Index No  |
 |--------------|-------------------|------------|
 | ICT/2024/020 | AWSS Chamikara    |    6634    |
@@ -17,7 +16,6 @@ A Windows desktop application (C++/CLI, Windows Forms) with a MySQL database for
 | ICT/2024/066 | LVRK Karunarathne |    6677    |
 | ICT/2024/067 | UPR Karunathilake |    6678    |
 | ICT/2024/081 | RDS Madhuranga    |    6687    |
-|-----------------------------------------------|
 
 Demo video (YouTube): https://youtu.be/ZFIaEpMiXAM
 
@@ -27,7 +25,6 @@ A pet boarding care center takes in animals for a number of days. Admin register
 
 ## Features
 
-|----------------------------------------------------------------------------------------------------------------|
 | Screen         | What it does                                                             | Database operation |
 |----------------|--------------------------------------------------------------------------|--------------------|
 | Login          | Admin sign-in (`admin` / `1234`)                                         | -                  |
@@ -35,18 +32,15 @@ A pet boarding care center takes in animals for a number of days. Admin register
 | View Details   | ListBox of all pets with owner, days boarded and total bill              | Read               |
 | Update Details | Select a pet and edit its details                                        | Update             |
 | Reclaim A Pet  | Show the bill, confirm, and remove the pet from the center               | Delete             |
-|----------------------------------------------------------------------------------------------------------------|
 
 ## Fee calculation
 
-|-----------------------|
 | Animal | Rate per day |
 |--------|--------------|
 | Dog    | Rs. 2500     |
 | Cat    | Rs. 1500     |
 | Rabbit | Rs. 1200     |
 | Parrot | Rs. 1000     |
-|-----------------------|
 
 Bill = rate per day x days boarded. The rates are defined in `Animal.h`.
 
