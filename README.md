@@ -46,22 +46,15 @@ Bill = rate per day x days boarded. The rates are defined in `Animal.h`.
 
 ## OOP concepts used
 
-|---------------------------------------------------------------------------------------------------------------------------------------|
 |    Concept    | Where in the code                                                                                                     |
 |---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Class         | `Animal`, `Dog`, `Cat`, `Rabbit`, `Parrot`, `AnimalFactory`, and the MySQL helper class in `Database_Link.h`          |
-|---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Object        | Forms create objects such as `gcnew Dog(...)` through `AnimalFactory::Create(...)`                                    |
-|---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Encapsulation | `Animal` keeps its fields private and exposes them through validating properties (e.g. days boarded must be 3 digits) |
-|---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Abstraction   | `Animal` is abstract; `GetDailyRate()` and `GetAnimalType()` are abstract methods                                     |
-|---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Inheritance   | `Dog`, `Cat`, `Rabbit` and `Parrot` inherit from `Animal`                                                             |
-|---------------|-----------------------------------------------------------------------------------------------------------------------|
 | Polymorphism  | `CalculateBill()` calls `GetDailyRate()`, which each subclass overrides; `ToString()` is overridden so the List       |
 |               | displays each pet                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Database
 
