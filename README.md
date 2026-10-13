@@ -73,8 +73,7 @@ MySQL with two record types, `owners` and `pets` (each pet belongs to one owner)
 
     1. Install **MySQL Server** and **MySQL Connector/NET**.
     2. Open `pbms_db.sql` in MySQL Workbench and execute it to create the `pbms_db` database and tables.
-    3. Open the solution explore in Visual Studio. If the `MySql.Data` reference shows a warning, remove it and re-add it: right-click the
-       project, then Add, then Reference, and browse to `MySql.Data.dll` in the Connector/NET `Assemblies` folder (common location:- C:\Program Files (x86)\MySQL\MySQL Connector NET 26.7\MySql.Data.dll).
+    3. Open the solution explore in Visual Studio. If the `MySql.Data` reference shows a warning, remove it and re-add it: right-click the project, then Add, then Reference, and browse to `MySql.Data.dll` in the Connector/NET `Assemblies` folder (common location:- C:\Program Files (x86)\MySQL\MySQL Connector NET 26.7\MySql.Data.dll).
     4. Open `Database_Link.h` and set `Uid` and `Pwd` in the connection string to your own MySQL username and password.
     5. Build and run, then sign in with Username:- `admin` / Password:- `1234`.
 
