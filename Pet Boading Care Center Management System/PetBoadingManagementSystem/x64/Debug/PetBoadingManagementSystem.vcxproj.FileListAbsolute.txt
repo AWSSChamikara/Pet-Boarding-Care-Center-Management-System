@@ -1,9 +1,0 @@
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.vcxproj.AssemblyReference.cache
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Board_Form.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Dashboard.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Deatails.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Login_Form.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Reclaim.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.PBMS_Update_Form.resources
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadingManagementSystem.vcxproj.GenerateResource.cache
-C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\PetBoadingManagementSystem\x64\Debug\PetBoadi.E77F9726.Up2Date
