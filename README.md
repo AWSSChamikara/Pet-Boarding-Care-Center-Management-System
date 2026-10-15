@@ -83,4 +83,5 @@ MySQL with two record types, `owners` and `pets` (each pet belongs to one owner)
 
 -> Method 2
 
-    1. Install the application using setup.exe or PBMS Setup.msi in Release. For installation follow the instructions in Readme file in Release.
+    1. Install the application using setup.exe or PBMS Setup.msi in Release.
+    2. For installation follow the instructions in Readme file in Release.
