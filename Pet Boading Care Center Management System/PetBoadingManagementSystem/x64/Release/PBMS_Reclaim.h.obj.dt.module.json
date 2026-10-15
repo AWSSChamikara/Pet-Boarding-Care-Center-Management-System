@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\PBMS_Reclaim.obj",
+            "outputs": [
+                "x64\\Release\\PBMS_Reclaim.h.obj.dt.module.json",
+                "x64\\Release\\PBMS_Reclaim.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

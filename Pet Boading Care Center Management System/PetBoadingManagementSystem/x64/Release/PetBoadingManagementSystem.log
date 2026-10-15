@@ -1,0 +1,10 @@
+﻿  PBMS_Board_Form.cpp
+  PBMS_Dashboard.cpp
+  PBMS_Deatails.cpp
+  PBMS_Login_Form.cpp
+  PBMS_Reclaim.cpp
+  PBMS_Update_Form.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  PBMS_Board_Form.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  PetBoadingManagementSystem.vcxproj -> C:\Users\awssc\Desktop\OOP Project\PetBoadingManagementSystem\x64\Release\PetBoadingManagementSystem.exe
