@@ -53,8 +53,7 @@ Bill = rate per day x days boarded. The rates are defined in `Animal.h`.
 | Encapsulation | `Animal` keeps its fields private and exposes them through validating properties (e.g. days boarded must be 3 digits) |
 | Abstraction   | `Animal` is abstract; `GetDailyRate()` and `GetAnimalType()` are abstract methods                                     |
 | Inheritance   | `Dog`, `Cat`, `Rabbit` and `Parrot` inherit from `Animal`                                                             |
-| Polymorphism  | `CalculateBill()` calls `GetDailyRate()`, which each subclass overrides; `ToString()` is overridden so the List       |
-|               | displays each pet                                                                                                     |
+| Polymorphism  | `CalculateBill()` calls `GetDailyRate()`, which each subclass overrides; `ToString()` is overridden so the List displays each pet|
 
 ## Database
 
