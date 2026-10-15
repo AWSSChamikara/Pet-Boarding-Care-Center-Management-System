@@ -1,0 +1,100 @@
+  PetBoadingManagementSystem.PBMS_Board_Form.resources - Embedded, ContainedInManifestFile, 
+  PetBoadingManagementSystem.PBMS_Dashboard.resources - Embedded, ContainedInManifestFile, 
+  PetBoadingManagementSystem.PBMS_Deatails.resources - Embedded, ContainedInManifestFile, 
+  PetBoadingManagementSystem.PBMS_Login_Form.resources - Embedded, ContainedInManifestFile, 
+  PetBoadingManagementSystem.PBMS_Reclaim.resources - Embedded, ContainedInManifestFile, 
+  PetBoadingManagementSystem.PBMS_Update_Form.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly PetBoadingManagementSystem, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=26.7.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class PetBoadingManagementSystem.Animal: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 DaysBoarded 'get set' : 
+    System.String ContactNo 'get set' : 
+    System.String OwnerName 'get set' : 
+    System.String PetName 'get set' : 
+    Int32 OwnerId 'get set' : 
+    Int32 PetId 'get set' : 
+  Methods:
+    get_PetId(): PrivateScope, Public, HideBySig, SpecialName
+    set_PetId(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_OwnerId(): PrivateScope, Public, HideBySig, SpecialName
+    set_OwnerId(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_PetName(): PrivateScope, Public, HideBySig, SpecialName
+    set_PetName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OwnerName(): PrivateScope, Public, HideBySig, SpecialName
+    set_OwnerName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ContactNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContactNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DaysBoarded(): PrivateScope, Public, HideBySig, SpecialName
+    set_DaysBoarded(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetDailyRate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetAnimalType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CalculateBill(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class PetBoadingManagementSystem.Dog: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :PetBoadingManagementSystem.Animal
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetDailyRate(): PrivateScope, Public, Virtual, HideBySig
+    GetAnimalType(): PrivateScope, Public, Virtual, HideBySig
+Class PetBoadingManagementSystem.Cat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :PetBoadingManagementSystem.Animal
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetDailyRate(): PrivateScope, Public, Virtual, HideBySig
+    GetAnimalType(): PrivateScope, Public, Virtual, HideBySig
+Class PetBoadingManagementSystem.Rabbit: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :PetBoadingManagementSystem.Animal
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetDailyRate(): PrivateScope, Public, Virtual, HideBySig
+    GetAnimalType(): PrivateScope, Public, Virtual, HideBySig
+Class PetBoadingManagementSystem.Parrot: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :PetBoadingManagementSystem.Animal
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetDailyRate(): PrivateScope, Public, Virtual, HideBySig
+    GetAnimalType(): PrivateScope, Public, Virtual, HideBySig
+Class PetBoadingManagementSystem.AnimalFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Create(String, String, String, String, Int32): PrivateScope, Public, Static, HideBySig
+Class PetBoadingManagementSystem.DatabaseHelper: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    AddAnimal(Animal): PrivateScope, Public, Static, HideBySig
+    GetAllAnimals(): PrivateScope, Public, Static, HideBySig
+    UpdateAnimal(Animal): PrivateScope, Public, Static, HideBySig
+    DeleteAnimal(Int32): PrivateScope, Public, Static, HideBySig
+Class PetBoadingManagementSystem.PBMS_Board_Form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PetBoadingManagementSystem.PBMS_Reclaim: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PetBoadingManagementSystem.PBMS_Update_Form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PetBoadingManagementSystem.PBMS_Deatails: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PetBoadingManagementSystem.PBMS_Dashboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PetBoadingManagementSystem.PBMS_Login_Form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
