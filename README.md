@@ -1,7 +1,7 @@
 # Pet Boarding Care Center Management System
 
 ICT 1306 - Object Oriented Programming
-Group Assignment
+Group Assignment mini project
 Department of Computing
 Rajarata University of Sri Lanka
 
