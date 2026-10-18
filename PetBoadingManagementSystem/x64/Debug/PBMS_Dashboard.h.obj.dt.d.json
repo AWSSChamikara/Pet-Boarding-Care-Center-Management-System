@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\pbms_dashboard.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\pbms_board_form.h",
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\database_link.h",
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\animal.h",
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\pbms_reclaim.h",
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\pbms_update_form.h",
+            "c:\\users\\awssc\\desktop\\oop project\\petboadingmanagementsystem\\petboadingmanagementsystem\\pbms_deatails.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
