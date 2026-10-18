@@ -12,7 +12,7 @@ namespace PetBoadingManagementSystem {
 	private:
 		static String^ ConnectionString()
 		{
-			return "Server=localhost;Port=3306;Database=pbms_db;Uid=root;Pwd=0433;";
+			return "Server=localhost;Port=3306;Database=pbms_db;Uid=root;Pwd=password;";
 		}
 
 		static int GetOrCreateOwner(MySqlConnection^ conn, String^ ownerName, String^ contactNo)
